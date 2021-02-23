@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: row-reverse;
+}
+i.fa-star{
+  color: gray;
+  font-size: 100px;
+}
+i.fa-star:hover,
+i.active {
+color:goldenrod;
+}
+
+i:hover ~ i,
+i.active ~ i {
+  color: goldenrod;
+}
+ 
